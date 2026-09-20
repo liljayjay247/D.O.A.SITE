@@ -15,6 +15,11 @@ body {
 section {
     padding: 70px 8%;
 }
+h1{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
 
 h2 {
     text-align: center;
@@ -47,7 +52,7 @@ header {
 }
 
 .header-image {
-    width: 120px;
+    width: 525px;
     height: auto;
     border-radius: 10px;
     object-fit: cover;
