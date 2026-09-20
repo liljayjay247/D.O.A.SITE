@@ -37,7 +37,6 @@ button {
 
 /*navigation*/
 
-
 header {
     background-color: #000;
     padding: 20px;
@@ -45,6 +44,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.header-image {
+    width: 120px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
 }
 
 .logo {
@@ -61,6 +67,7 @@ nav a {
 nav a:hover {
     color: #aaa;
 }
+
 button {
     background-color: white;
     color: black;
@@ -105,7 +112,6 @@ button:hover {
     margin-bottom: 30px;
 }
 
-
 /* Music */
 
 .music-grid {
@@ -141,7 +147,6 @@ audio {
     margin-bottom: 15px;
 }
 
-
 /* Events */
 
 .events-grid {
@@ -171,7 +176,6 @@ audio {
 .event-card button {
     margin-top: 15px;
 }
-
 
 /* Membership */
 
@@ -207,7 +211,6 @@ audio {
     margin-bottom: 25px;
 }
 
-
 /* Footer */
 
 footer {
@@ -242,4 +245,3 @@ footer {
         grid-template-columns: 1fr;
     }
 }
-    
